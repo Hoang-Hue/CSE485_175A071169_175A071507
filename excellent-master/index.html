@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name = "apple-mobile-web-app-capable" content="yes">
+    <meta name ="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Trường đại học Nguyễn Tất Thành</title>
+    <link rel="stylesheet" href="Libraly/Bootstrap 4/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="./Libraly/js/jquery.min.js"></script>
+    <script src="./Libraly/js/scripts.js"></script>
+    <script src="./Libraly/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+<!--     <div class="log_in">
+        <div class="button">
+            <a href="logout.php"><button>Logout</button></a>
+            <a href="them_taikhoan.php"><button>Thêm tài khoản</button></a>
+            <a href="xoa_taikhhoan.php"><button>Xoá tài khoản</button></a>
+        </div>
+    </div>-->
+    <!-- <div class="container">
+            <form>
+              <div class="form-group">
+                <label for="sel1">this would be your text on the select button:</label>
+                <select class="form-control" id="sel1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+               
+              </div>
+            </form>
+          </div>
+
+
+    <div class="dropdown">
+				 
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                Action
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                 <a class="dropdown-item disabled" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+    </div> -->  
+    <div id="top">
+        <div class="hotline">
+             <span>Hotline: 0902.298.300  - 0906.298.300</span>
+        </div>
+        <div class="topheader">
+            <a href="#">Sinh viên</a>
+            <a href="#">Giảng viên</a>
+            <a href="#">Đào tạo quốc tế</a>
+        </div>
+        <form class="form-inline my-2 my-lg-0" >
+            <input class="form-control mr-sm-2"    type="text" placeholder="Tìm kiếm thông tin">
+            <button class="btn btn-outline-success my-2 my-sm-0"  type="submit">Search</button>
+            
+            <div id="ukflag">
+                    <img src="image/uk flags.png" alt="" width="100%" height="100%">
+                </div>
+        </form>
+        
+    </div>
+    <div id="wrapper">
+            <div class="header-menu-id "  style="display: flex;height: 100px; background-color: white;box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;">
+                    <div class="container main-header" data-toggle="dropdown">    
+                      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a href="#"><img src="image/logo_ntt.png"></a>
+                        
+                        <div id="nav2" class="col-9">
+                          <nav class="nav nav-pills nav-fill">
+                            <a class="nav-item-id nav-link nav2" href="Gioithieu.html"><i class="fa fa-info-circle"></i> Giới thiệu</a>
+                            <a class="nav-item-id nav-link nav2" href="Tuyensinh.html"><i class="fa fa-graduation-cap"></i> Tuyển sinh</a>
+                            <a class="nav-item-id nav-link nav2" href="Daotao.html"><i class="fa fa-book"></i> Đào tạo</a>
+                            <a class="nav-item-id nav-link nav2" href="Nghiencuu.html"><i class="fa fa-bookmark"></i> Nghiên cứu</a>
+                            <a class="nav-item-id nav-link nav2" href="Hoptacdoanhnghiep.html"><i class="fas fa-handshake"></i> Hợp tác doanh nghiêp</a>
+                          </nav>
+                        </div>
+                      </nav>
+                      <button type="button" class="btn btn-gnav" id="menu-trigger" data-trigger="#menu"><i class="fa fa-bars c-blue-a5"></i></button>
+                    </div>
+                  </div>
+
+        
+        <!-- <div class="menu-list">
+            <div class="menu-bt" style="text-align: center;">
+                <button type="button" class="btn btn-gnav" id="menu-trigger" data-trigger="#menu-button"><i class="fa fa-bars c-blue-a5"></i></button>
+            </div>
+            <div class="gnav">
+                <div class="container">
+                    <nav id="menu">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+                                <p><a href=" gioi-thieu">Giới thiệu chung</a></p>
+                                <ul>
+                                    <li><a href="#"> </i>Giới thiệu chung</a></li>
+                                    <li><a href="#"> </i>Toàn cảnh ĐH Nguyễn Tất Thành</a></li>
+                                    <li><a href="#"> </i>Hệ thống Cơ sở vật chất</a></li>
+                                    <li><a href="#"> </i>Thông tin 3 công khai</a></li>
+                                    <li><a href="#"> </i>Đảm bảo chất lượng</a></li>
+                                    <li><a href="#"> </i>Phát triển bền vững</a></li>
+                                </ul>
+                                    <p><a href="#">Hợp tác doanh nghiệp</a></p>
+                                    <ul >
+                                    <li><a href="#"> </i>Giới thiệu việc làm</a></li>
+                                    <li><a href="#"> </i>Giới thiệu thực tập</a></li>
+                                    <li><a href="#"> </i>Câu lạc bộ Doanh nghiệp</a></li>
+                                    <li><a href="#"> </i>Ban liên lạc Cựu sinh viên</a></li>
+                                    <li><a href="#"> </i>Liên kết - Hợp tác</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <p><a href="#">Tuyển sinh</a></p>
+                                <ul >
+                                    <li><a href="#"> </i>Các bậc đào tạo</a></li>
+                                    <li><a href="#"> </i>Thông tin tuyển sinh</a></li>
+                                    <li><a href="#"> </i>Chính sách học bổng</a></li>
+                                    <li><a href="#"> </i>Hướng nghiệp</a></li>
+                                    <li><a href="#"> </i>Xét tuyển trực tuyến</a></li>
+                                </ul>
+        
+                                <p><a href="#">Nghiên cứu</a></p>
+                                <ul >
+                                    <li><a href="#"> </i>Hoạt động khoa học công nghệ</a></li>
+                                    <li><a href="#"> </i>Viện - Trung tâm nghiên cứu</a></li>
+                                    <li><a href="#"> </i>Công bố khoa học</a></li>
+                                </ul>
+                            </div>
+            
+                                <div class="col-lg-3 col-sm-6">
+                                    <p><a href="#">Đào tạo</a></p>
+                                    <ul >
+                                        <li><a href="#"> </i>Khối Khoa học sức khỏe</a></li>
+                                        <li><a href="#"> </i>Khối Kinh tế - Quản trị</a></li>
+                                        <li><a href="#"> </i>Khối Kỹ thuật - Công nghệ</a></li>
+                                        <li><a href="#"> </i>Khối Khoa học xã hội - Nhân văn</a></li>
+                                        <li><a href="#"> </i>Khối Mỹ thuật - Nghệ thuật</a></li>
+                                        <li><a href="#"> </i>Khối đào tạo quốc tế</a></li>
+                                    </ul>
+                                </div>
+            
+                                <div class="col-lg-3 col-sm-6">
+                                    <ul>
+                                        <li><a href="#" class="btn">Facebook</a></li>
+                                        <li><a href="#" class="btn">Google Plus</a></li>
+                                        <li><a href="#" class="btn">Youtube</a></li>
+                                        <li><a href="#" class="btn">E-mail</a></li>
+                                        <li><a href="#" class="btn">Zalo</a></li>
+                                        <li><a href="#" class="btn">E-office</a></li>
+                                        <li><a href="#" class="btn">Tuyển dụng</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </nav>
+                </div>
+            </div>
+        </div> -->
+        <div class="container" data-toggle="dropdown">
+                <div class="menu gnav">
+                  <nav id="list">
+                    <div class="row main-list">
+                      <div class="col-lg-3 col-sm-6 list1">
+                        <p><a href="/web/gioi-thieu">Giới thiệu chung</a></p>
+                        <ul class="sub-nav">
+                          <li><a href="/web/dao-tao/gioi-thieu-chung"><i class="fa fa-angle-double-right"></i>Giới thiệu chung</a></li>
+                          <li><a href="/web/dao-tao/toan-canh-dh-nguyen-tat-thanh"><i class="fa fa-angle-double-right"></i>Toàn cảnh ĐH Nguyễn Tất Thành</a></li>
+                          <li><a href="/web/dao-tao/he-thong-co-so-vat-chat"><i class="fa fa-angle-double-right"></i>Hệ thống Cơ sở vật chất</a></li>
+                          <li><a href="/web/dao-tao/thong-tin-3-cong-khai"><i class="fa fa-angle-double-right"></i>Thông tin 3 công khai</a></li>
+                          <li><a href="http://dbcl.ntt.edu.vn"><i class="fa fa-angle-double-right"></i>Đảm bảo chất lượng</a></li>
+                          <li><a href="/web/dao-tao/phat-trien-ben-vung"><i class="fa fa-angle-double-right"></i>Phát triển bền vững</a></li>
+                        </ul>
+            
+                        <p><a href="#">Hợp tác doanh nghiệp</a></p>
+                        <ul class="sub-nav">
+                          <li><a href=""><i class="fa fa-angle-double-right"></i>Giới thiệu việc làm</a></li>
+                          <li><a href=""><i class="fa fa-angle-double-right"></i>Giới thiệu thực tập</a></li>
+                          <li><a href=""><i class="fa fa-angle-double-right"></i>Câu lạc bộ Doanh nghiệp</a></li>
+                          <li><a href=""><i class="fa fa-angle-double-right"></i>Ban liên lạc Cựu sinh viên</a></li>
+                          <li><a href="http://vieclam-thuctap.ntt.edu.vn/index.php/tin-tuc-va-su-kien"><i class="fa fa-angle-double-right"></i>Liên kết - Hợp tác</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 list1">
+                        <p><a href="#">Tuyển sinh</a></p>
+                        <ul class="sub-nav">
+                          <li><a href=""><i class="fa fa-angle-double-right"></i>Các bậc đào tạo</a></li>
+                          <li><a href="/web/tuyen-sinh/thong-tin-tuyen-sinh"><i class="fa fa-angle-double-right"></i>Thông tin tuyển sinh</a></li>
+                          <li><a href="/web/tuyen-sinh/chinh-sach-hoc-bong"><i class="fa fa-angle-double-right"></i>Chính sách học bổng</a></li>
+                          <li><a href="/web/tuyen-sinh/huong-nghiep"><i class="fa fa-angle-double-right"></i>Hướng nghiệp</a></li>
+                          <li><a href="http://tuyensinh.ntt.edu.vn/dang-ky-truc-tuyen"><i class="fa fa-angle-double-right"></i>Xét tuyển trực tuyến</a></li>
+                        </ul>
+            
+                        <p><a href="#">Nghiên cứu</a></p>
+                        <ul class="sub-nav">
+                          <li><a href="http://khcn.ntt.edu.vn/danh-muc/hoat-dong-khcn/"><i class="fa fa-angle-double-right"></i>Hoạt động khoa học công nghệ</a></li>
+                          <li><a href="http://khcn.ntt.edu.vn/"><i class="fa fa-angle-double-right"></i>Viện - Trung tâm nghiên cứu</a></li>
+                          <li><a href="http://khcn.ntt.edu.vn/"><i class="fa fa-angle-double-right"></i>Công bố khoa học</a></li>
+                        </ul>
+                      </div>
+            
+                      <div class="col-lg-3 col-sm-6 list1">
+                        <p><a href="/web/dao-tao/">Đào tạo</a></p>
+                        <ul class="sub-nav">
+                          <li><a href="/web/dao-tao/khoi-khoa-hoc-suc-khoe"><i class="fa fa-angle-double-right"></i>Khối Khoa học sức khỏe</a></li>
+                          <li><a href="/web/dao-tao/khoi-kinh-te-quan-tri"><i class="fa fa-angle-double-right"></i>Khối Kinh tế - Quản trị</a></li>
+                          <li><a href="/web/dao-tao/khoi-ky-thuat-cong-nghe"><i class="fa fa-angle-double-right"></i>Khối Kỹ thuật - Công nghệ</a></li>
+                          <li><a href="/web/dao-tao/khoi-khoa-hoc-xa-hoi-nhan-van"><i class="fa fa-angle-double-right"></i>Khối Khoa học xã hội - Nhân văn</a></li>
+                          <li><a href="/web/dao-tao/khoi-my-thuat-nghe-thuat"><i class="fa fa-angle-double-right"></i>Khối Mỹ thuật - Nghệ thuật</a></li>
+                          <li><a href="http://niie.edu.vn"><i class="fa fa-angle-double-right"></i>Khối đào tạo quốc tế</a></li>
+                        </ul>
+                      </div>
+            
+                      <div class="col-lg-3 col-sm-6 list1">
+                        <ul class="sub-page">
+                          <li><a href="http://facbook.com/daihocnguyentatthanh" class="btn"><i class="fab fa-facebook"></i>Facebook</a></li>
+                          <li><a href="https://plus.google.com/112750194814925795608" class="btn"><i class="fab fa-google-plus-square"></i>Google Plus</a></li>
+                          <li><a href="http://youtube.com/daihocntt" class="btn"><i class="fab fa-youtube"></i>Youtube</a></li>
+                          <li><a href="mailto:#" class="btn"><i class="fa fa-envelope"></i>E-mail</a></li>
+                          <li><a href="https://zalo.me/1656351623584574728" class="btn"><i class="fab fa-weixin"></i>Zalo</a></li>
+                          <li><a href="https://eo1.ntt.edu.vn" class="btn"><i class="fas fa-graduation-cap"></i>E-office</a></li>
+                          <li><a href="http://tcns.ntt.edu.vn" class="btn"><i class="fa fa-users"></i>Tuyển dụng</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  
+            
+                  <div id="carouselExampleCaptions" class="carousel slide container" data-ride="carousel" style="z-index: 0;">
+                    <div class="carousel-inner ">
+                      <div class="carousel-item  active">
+                        <img src="http://ntt.edu.vn/web/upload/images/slider/Chinh-sach-hoc-bong-NTTU_Web-Slider.jpg" class="d-block w-100" alt="chinh sach hoc bong">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                          <h3>
+                            <p></p>Chính sách học bổng Trường Đại học Nguyễn Tất Thành năm 2019</h3>
+            
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                         <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/Web_Slider.jpg" class="d-block w-100" alt="Xet tuyen hoc ba">
+                         <div class="carousel-caption d-none d-md-block text-center">
+                          <h3>xĐH Nguyễn Tất Thành nhận hồ sơ xét tuyển học bạ đợt cuối đến ngày 03/09/2019</h3>
+                          </div>
+                        </div>
+                      <div class="carousel-item">
+                        <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/9_WEB%20SLIDER.png" class="d-block w-100" alt="ky niem quoc khanh">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                          <h3>Mừng kỷ niệm 74 năm Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam</h3>
+                          
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="http://ntt.edu.vn/web/upload/images/slider/BANER-FUTSAL-SINH-VIEN-TP-HCM-2019_NTTU.jpg" class="d-block w-100" alt="giai futsal">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                          <h3><p></p>
+                          Giải đấu Futsal SV Thành phố Hồ Chí Minh 2019</h3>
+                          
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="http://ntt.edu.vn/web/upload/images/slider/Lien-thong-NTTU_Web-Slider.jpg" class="d-block w-100" alt="tuyen sinh lien thong">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                          <h3>
+                            <p></p>Tuyển sinh liên thông 2019</h3>    
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" > 
+                        <span class="carousel-control-prev-icon" aria-hidden="true" style="position: absolute; top: 75%; left: 82%;"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true" style="position: absolute; top: 75%; right: 82%;"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div><!--id="carouselExampleCaptions"-->
+                  </div>
+                </div>
+            <div class="container">
+                <div class="row">
+                        <div class="col-sm-3">
+                            <div class="row1">
+                                <a href="#"><p style="text-align: left">Tin Tức</p></a>
+                            </div>
+                            <row2 class="row2" >
+                                <a href="./tintuc1.html"><img src="image/p1.jpg" alt="" style="width: 100%;height: 100px;"></a>
+                            </row2>
+                            <div class="row3">
+                                <a href="./tintuc1.html">Những lý do nên chọn học thạc sĩ tại Trường ĐH Nguyễn Tất Thành"</a>
+                            <div class="row4">
+                                <p style="margin-top: 10px">NTTU - Hiện nay, có rất nhiều trường ĐH được đào tạo thạc sĩ, tiến sĩ… nhu cầu người học cũng nhiều nhưng để tìm được một môi trường học tập có chất lượng đào tạo cao, đáp ứng được nhu cầu của các học viên </p></div> 
+                            </div>
+                        </div>
+                        <div class="col-sm-3" style="padding-top: 29px;">
+                            <br>
+                            <br>
+                            <div class="row2">
+                                <a href="#" style="width: 100%">
+                                    <img  src="./image/p2.jfif" alt="" style="width: 100%;height: 100px">
+                                </a>
+                            </div>
+                            <div class="row3">
+                                <a href="./tintuc2.html">ĐH Nguyễn Tất Thành phối hợp tổ chức Workshop “Youtube đã làm thay đổi cuộc sống của tôi</a>
+                            </div>
+                        <div class="row4">
+                            <p style="margin-top: 10px">NTTU – Sáng ngày 19/09/2019, tại cơ sở An Phú Đông, Trường ĐH Nguyễn Tất Thành phối hợp cùng Công ty Truyền thông và Giải trí Điền Quân tổ chức chương trình Workshop “Youtube đã làm thay đổi cuộc </p>
+                        </div>
+                    </div>
+                        <div class="col-sm-3" style="padding-top: 29px;">
+                            <br>
+                            <br>
+                            <div class="row1">
+                                <a href="#"><img src="./image/p3.png" alt="" style="width: 100%;height: 100px"></a>
+                            </div>
+                            <div class="row2">
+                                <a href="">ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo</a>
+                            </div>
+                            <div class="row3">
+                                <p style="margin-top: 10px">NTTU - ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo...</p>
+                            </div>
+                            <div class="row4">
+                                <a style="color: blue" href="/web/tin-tuc/">
+                                    <i class="fa fa-chevron-circle-right mr-2 c-blue-a5"></i>Xem thêm
+                                </a>
+                            </div>
+                    </div>
+                        <div class="col-sm-3">
+                            <div class="row1">
+                                <a href="#"><p style="text-align:left">Media</p></a>
+                            </div>
+                            <div class="row2">
+                                <iframe style="width: 100%;height: 100px;" src="https://www.youtube.com/embed/JViDyojZzhs" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                            <div class="row3">
+                                <a style="margin-top: 10px" href="#">ĐIỂM TIN THÁNG 8</a>
+                            </div>
+                        <div class="row4">
+                            <a href="#">ĐH Nguyễn Tất Thành – 20 năm dấu ấn một chặng đường</a>
+                        </div>
+                        <div class="row5">
+                            <a href="#">NỎ THẦN - TẬP 8 | BẬT MÍ VỀ NỎ THẦN VÀ NHỮNG CÂU CHUYỆN CÓ THẬT</a>
+                        </div>
+                        <div class="row6">
+                            <a style="color: blue" href="https://www.youtube.com/channel/UCPuljJ0RsiXHf3odISzjqDw">
+                                <i class="fa fa-chevron-circle-right mr-2"></i>Xem thêm
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="b4-bx-wrapper" style="background-color: rgb(14, 14, 180);margin:60px 0px;width: 100%">
+                        <h4>TẠI SAO CHỌN ĐẠI HỌC NGUYỄN TẤT THÀNH</h4>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4" style="background-image: url(./image/nghiencuu1.jpg)">
+                                    <br>
+                                    <br>
+                                        <a href="#"><p>Đại học hạnh phúc</p></a>
+                                        <p>Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
+                                </div>
+                                <div class="col-sm-4" style="background-image: url(./image/nghiencuu1.jpg)">
+                                    <br>
+                                    <br>
+                                    <a href="#"><p>Top 10 thương hiệu nổi tiếng</p></a>
+                                    <p>Trong những năm qua, Trường ĐH Nguyễn Tất Thành đã không ngừng đổi mới công tác quản trị đại học, nâng cao chất lượng đào tạo, nghiên cứu khoa học, công tác hợp tác quốc tế, công tác sinh viên.</p>
+                                </div>
+                                <div class="col-sm-4" style="background-image: url(./image/nghiencuu1.jpg)">
+                                    <br>
+                                    <br>
+                                    <a href="#"><p>95% sinh viên tốt nghiệp có việc làm</p></a>
+                                    <p>Định vị là trường ứng dụng và thực hành hướng tới mục tiêu đáp ứng nhu cầu giáo dục đại học đại chúng, trí thức hóa nguồn nhân lực, tạo môi trường học tập tích cực và trải nghiệm thực tiễn cho sinh viên.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-inner" style="background-color: rgb(9, 9, 121);">
+                            <div class="carousel-item active">
+                              <h2 style="    color: #aa914d;    text-align: center;   font-weight: bolder; padding-top: 20px;">Tại sao chọn đại học Nguyễn Tất Thành?</h2>
+                              <div class="container-fluid">
+                                <div class="row" >
+                                  <div class="col-md-4" id="fu" style="background-position: center;background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg);background-repeat: no-repeat ">
+                                    <p class="text-center"><a href="/web/thong-tin/chuan-3-sao-qs-stars-anh-quoc" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">Chuẩn 3 sao QS-Stars (Anh Quốc)</a></p>
+                                    <p id="ct">Xếp hạng quốc tế 3 sao theo chuẩn QS-Stars, một trong các chuẩn xếp hạng hàng đầu dành cho các trường đại học trên thế giới.</p>
+                                  </div>
+                                  <div class="col-md-4" id="fu" style="background-position: center;background-repeat: no-repeat;background-image: url(http://ntt.edu.vn/web/upload/images/hp_xhoi-01.svg);">
+                                    <p class="text-center"><a href="/web/thong-tin/dat-chuan-chat-luong-quoc-gia" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">Đạt chuẩn chất lượng quốc gia</a></p>
+                                    <p id="ct">Là trường đại học ngoài công lập đầu tiên tại TP.HCM được kiểm định đạt chất lượng theo bộ tiêu chí quốc gia do Bộ GD&amp;ĐT ban hành.</p>
+                                  </div>
+                                  <div class="col-md-4" id="fu" style="background-position: center;background-repeat: no-repeat;background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
+                                    <p class="text-center"><a href="/web/thong-tin/dai-hoc-hanh-phuc" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">Đại học hạnh phúc</a></p>
+                                    <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item ">
+                              <h2 style="    color: #aa914d;    text-align: center;;   font-weight: bolder; padding-top: 20px">Tại sao chọn đại học Nguyễn Tất Thành?</h2>
+                              <div class="container-fluid">
+                                <div class="row" >
+                                  <div class="col-md-4" id="fu"style="background-position: center;background-repeat: no-repeat;background-image: url(http://ntt.edu.vn/web/upload/images/hp_xhoi-01.svg);">
+                                    <p class="text-center"><a href="/web/thong-tin/dat-chuan-chat-luong-quoc-gia" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">Đạt chuẩn chất lượng quốc gia</a></p>
+                                    <p id="ct">Là trường đại học ngoài công lập đầu tiên tại TP.HCM được kiểm định đạt chất lượng theo bộ tiêu chí quốc gia do Bộ GD&amp;ĐT ban hành.</p>
+                                  </div>
+                                  <div class="col-md-4" id="fu"style="background-position: center;background-repeat: no-repeat;background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
+                                    <p class="text-center"><a href="/web/thong-tin/dai-hoc-hanh-phuc" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">Đại học hạnh phúc</a></p>
+                                    <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
+                                  </div>
+                                  <div class="col-md-4" id="fu" style="background-position: center;background-repeat: no-repeat;background-image: url(http://ntt.edu.vn/web/upload/images/hp_sinhvien-01.svg);">
+                                    <p class="text-center"><a href="/web/thong-tin/top-10-thuong-hieu-noi-tieng" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">Top 10 thương hiệu nổi tiếng</a></p>
+                                    <p id="ct">Trong những năm qua, Trường ĐH Nguyễn Tất Thành đã không ngừng đổi mới công tác quản trị đại học, nâng cao chất lượng đào tạo, nghiên cứu khoa học, công tác hợp tác quốc tế, công tác sinh viên.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item ">
+                              <h2 style="    color: #aa914d;    text-align: center;   font-weight: bolder; padding-top: 20px">Tại sao chọn đại học Nguyễn Tất Thành?</h2>
+                              <div class="container-fluid">
+                                <div class="row" >
+                                  <div class="col-md-4" id="fu"style="background-position: center;background-repeat: no-repeat;background-image: url(http://ntt.edu.vn/web/upload/images/hp_sinhvien-01.svg);">
+                                    <p class="text-center"><a href="/web/thong-tin/top-10-thuong-hieu-noi-tieng" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">Top 10 thương hiệu nổi tiếng</a></p>
+                                    <p id="ct"> Trong những năm qua, Trường ĐH Nguyễn Tất Thành đã không ngừng đổi mới công tác quản trị đại học, nâng cao chất lượng đào tạo, nghiên cứu khoa học, công tác hợp tác quốc tế, công tác sinh viên.</p>
+                                  </div>
+                                  <div class="col-md-4" id="fu" style="background-position: center;background-repeat: no-repeat;background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg);">
+                                    <p class="text-center"><a href="/web/thong-tin/95-sinh-vien-tot-nghiep-co-viec-lam" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">95% sinh viên tốt nghiệp có việc làm</a></p>
+                                    <p id="ct">Định vị là trường ứng dụng và thực hành hướng tới mục tiêu đáp ứng nhu cầu giáo dục đại học đại chúng, trí thức hóa nguồn nhân lực, tạo môi trường học tập tích cực và trải nghiệm thực tiễn cho sinh viên.</p>
+                                  </div>
+                                  <div class="col-md-4" id="fu" style="background-position: center;background-repeat: no-repeat;background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
+                                    <p class="text-center"><a href="/web/thong-tin/dai-hoc-hanh-phuc" style="text-decoration: none; color: white;font-weight: bold;font-size: 20px">Đại học hạnh phúc</a></p>
+                                    <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+
+                         <hr width="100%" align ="center">
+                        <div class="col-sm-4" style="text-align:left">
+                            <div class="row1">
+                                <p>Hợp tác quốc tế</p>
+                            </div>
+                            <div class="row2">
+                                <a href="#"><img src="./image/p4.jfif" alt="" style="width: 100%;height: 100px;"></a>
+                            </div>
+                            <div class="row3">
+                                <a href="#">Khoa Công nghệ Sinh học ĐH Nguyễn Tất Thành làm việc với ĐH Hiroshima</a>
+                            </div>
+                            <div class="row4">
+                                <p>NTTU - Sáng ngày 17/09/2019, khoa Công nghệ Sinh học Trường ĐH Nguyễn Tất Thành đã có buổi làm việc với ĐH Hiroshima (Nhật Bản)</p>
+                            </div>
+                            <div class="row5">
+                                    <a style="color: blue"><i class="fa fa-chevron-circle-right mr-2 c-blue-a5"></i>Xem thêm</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" style="text-align:left">
+                            <div class="row1">
+                                <p>Môi trường học tập</p>
+                            </div>
+                            <div class="row2">
+                                <a href="#"><img src="./image/p5.jpg" alt="" style="width: 100%;height: 100px" class="anhcangiua"></a>
+                            </div>
+                            <div class="row3">
+                                <a href="#">
+                                    Nhật ký thực tập nhận thức của sinh viên khoa Du lịch và Việt Nam học Trường ĐH Nguyễn Tất Thành
+                                </a>
+                            </div>
+                            <div class="row4">
+                                NTTU- Nhằm tạo cầu nối để sinh viên Khoa Du lịch và Việt Nam học Trường Đại học Nguyễn Tất Thành có cơ hội được tiếp cận thực tế, được trải nghiệm kiến thức chuyên môn liên quan đến ngành học qua đó giúp hình thành tình yêu nghề nghiệp đồng thời phát huy và tạo lập cho sinh viên một môi
+                            </div>
+                            <div class="row5">
+                                <a style="color: blue"><i class="fa fa-chevron-circle-right mr-2 c-blue-a5"></i>Xem thêm</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" style="text-align:left">
+                            <div class="row1">
+                                <p>Sự kiện nổi bật</p>
+                            </div>
+                            <div class="row2" style="display: flex">
+                                <div class="datebg">
+                                    Sep 25
+                                </div>
+                                <a href="#">Đại hội đại biểu Đoàn TNCS Hồ CHí Minh - Trường ĐH Nguyễn Tất Thành lần VII, nhiệm kỳ 2019 - 2022</a>
+                            </div>
+                            <div class="row3">
+                                <p>7:30</p>
+                            </div>
+                            <div class="row4">
+                                <p>Hội trường A.801, 300A Nguyễn Tất Thành, phường 13, quận 4, TP. HCM</p>
+                            </div>
+                            <div class="row5" style="display:flex">
+                                <div class="datebg">
+                                    Sep 22
+                                </div>
+                                    <a href="#">Chuyên đề tốt nghiệp lớp Việt Nam học - Khoa Du lịch và Việt Nam học</a>
+                            </div>
+                            <div class="row6">
+                                <p>7:00</p>
+                            </div>
+                            <div class="row7">
+                                <p>Sân bóng - cơ sở quận 7, 458/3F Nguyễn Hữu Thọ, phường Tân Hưng, quận 7</p>
+                            </div>
+                            <div class="row8" style="display: flex">
+                                <div class="datebg">
+                                    Sep 19
+                                </div>
+                                <a href="#">Workshop, Chủ đề: "Youtube đã thay đổi cuộc sống của tôi như thế nào''</a>
+                            </div>
+                            <div class="row9"><p>7:30</p></div>
+                            <div class="row10">
+                                <p>Hội trường L.HT1, 331 QL1A, phường An Phú Đông, quận 12</p>
+                            </div>
+                            <div class="row11">
+                                    <a style="color: blue"><i class="fa fa-chevron-circle-right mr-2 c-blue-a5"></i>Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        <!--  
+            <div id="end">
+            <div id="first">
+                <a href="index.html"><h5>ĐH NGUYỄN TẤT THÀNH</h5></a>
+                <a href="thungo.html"><p> Thư ngỏ</p></a>
+                <a href="#"><p>Tầm nhìn - Sứ mạng</p></a>
+                <a href="#"><p>Văn hóa ĐH Nguyễn Tất Thành</p></a>
+                <a href="#"><p>Thông tin 3 công khai</p></a>
+                <a href="#"><p>Đảm bảo chất lượng</p></a>
+                <a href="#"><p>Phát triển bền vững</p></a>
+                <a href="#"><p>Trường Trung cấp Nguyễn Tất Thành</p></a> 
+                <a href="#"><p>Trường Tiểu học Anh Việt Mỹ</p></a>
+            </div> 
+
+            <div id="main">
+                <a href="#"><h5>PHÒNG BAN</h5></a>
+                <a href="#"><h5>THƯ VIỆN ẢNH</h5></a>
+                <a href="#"><h5>E-LEARNING</h5></a>
+            </div>
+
+            <div id="last">
+            <a href="#"><h5>TRUNG TÂM - VIỆN</h5></a>
+            <a href="#"><p>Viện Đào Tạo Quốc Tế</p></a>
+            <a href="#"><p>Viện Công Nghệ Cao</p></a>
+            <a href="#"><p>Viện Đào tạo Sau đại học</p></a>
+            <a href="#"><p>Trung tâm Thông tin Thư viện</p></a>
+            <a href="#"><p>TT Ngoại Ngữ</p></a>
+            <a href="#"><p>TT Tin Học NTT</p></a>
+            <a href="#"><p>TT QH Doanh Nghiệp & Khởi nghiệp</p></a>
+            <a href="#"><p>TT Đào tạo theo nhu cầu XH</p></a>
+            <a href="#"><p>TT Xuất khẩu lao động Texgamex</p></a>
+            <a href="#"><p>Công đoàn Trường ĐH Nguyễn Tất Thành</p></a>
+            </div>
+
+            <div id="icon">
+                <a href="#"><img src="image/Facebook.png" alt="" id = "Facebook">Facebook</a> <br>
+                <a href="#"><img src="./image/GooglePlus.png" id = "GooglePlus" alt="">Google Plus</a> <br>
+                <a href="#"><img src="./image/Youtube.png" alt="" id = "Youtube">Youtube</a> <br>
+                <a href="#"><img src="./image/Email.png" alt="" id = "Email"> Email</a> <br>
+                <a href="#"><img src="./image/Zalo.jfif" alt=""> Zalo</a> <br>
+                <a href="#"><img src="./image/E-Office.png" alt="" id = "E-Office"> E-Office</a> <br> 
+                <a href="#"><img src="./image/TuyenDung.png" alt="" id = "TuyenDung"> Tuyển dụng</a> <br>
+            </div>
+        </div>
+    </div>
+-->
+</body>
+<footer>
+    <!--<footer>-->
+   <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                        <div class="row1">
+                        <a href="index.html"><h5><b>ĐH NGUYỄN TẤT THÀNH</b></h5></a>
+                    </div>
+                        <div class="row2">
+                        <a href="thungo.html"><small> Thư ngỏ</small></a>
+                    </div>
+                        <div class="row3">
+                        <a href="#"><small>Tầm nhìn - Sứ mạng</small></a>
+                    </div>
+                        <div class="row4">
+                        <a href="#"><small>Văn hóa ĐH Nguyễn Tất Thành</small></a>
+                    </div>
+                        <div class="row5">
+                        <a href="#"><small>Thông tin 3 công khai</small></a>
+                    </div>
+                        <div class="row6">
+                        <a href="#"><small>Đảm bảo chất lượng</small></a>
+                    </div>
+                        <div class="row7">
+                        <a href="http://ntt.edu.vn/web/danh-muc/phat-trien-ben-vung"><small>Phát triển bền vững</small></a>
+                    </div>
+                        <div class="row8">
+                        <a href="http://tcntt.edu.vn/"><small>Trường Trung cấp Nguyễn Tất Thành</small></a> 
+                    </div>
+                        <div class="row9">
+                        <a href="http://anhvietmy.ntt.edu.vn/"><small>Trường Tiểu học Anh Việt Mỹ</small></a>
+                    </div>
+                </div> 
+
+                <div class="col-sm-3">
+                    <div class="row1">
+                        <a href="http://ntt.edu.vn/web/tin-tuc/nhung-phong-ban-trung-tam-gan-bo-voi-sinh-vien-suot-4-nam-hoc-tai-dh-nguyen-tat-thanh"><h5><b>PHÒNG BAN</b></h5></a>
+                    </div>
+                    <div class="row2">
+                        <a href="http://thuvienanh.ntt.edu.vn"><h5><b>THƯ VIỆN ẢNH</b></h5></a></div>
+                    <div class="row3">
+                        <a href="http://lms.ntt.edu.vn"><h5><b>E-LEARNING</b></h5></a>
+                    </div>
+                </div>
+
+                <div id="col-sm-3">
+                    <div class="row1">
+                        <a href="#"><h5><b>TRUNG TÂM - VIỆN</b></h5></a></div>
+                    <div class="row2">
+                        <a href="http://www.niie.edu.vn/vi"><small>Viện Đào Tạo Quốc Tế</small></a></div>
+                    <div class="row3">
+                        <a href="http://hitech.ntt.edu.vn/"><small>Viện Công Nghệ Cao</small></a></div>
+                    <div class="row4">
+                        <a href="http://saudaihoc.ntt.edu.vn/"><small>Viện Đào tạo Sau đại học</small></a></div>
+                    <div class="row5">
+                        <a href="http://elib.ntt.edu.vn/"><small>Trung tâm Thông tin Thư viện</small></a></div>
+                    <div class="row6">
+                        <a href="http://ttngoainguntt.com"><small>TT Ngoại Ngữ</small></a></div>
+                    <div class="row7">
+                        <a href="http://www.nttc.vn/"><small>TT Tin Học NTT</small></a></div>
+                    <div class="row8">
+                        <a href="http://vieclam-thuctap.ntt.edu.vn"><small>TT QH Doanh Nghiệp & Khởi nghiệp</small></a></div>
+                    <div class="row9">
+                        <a href="http://daotaoncxh.ntt.edu.vn/"><small>TT Đào tạo theo nhu cầu XH</small></a></div>
+                    <div class="row10">
+                        <a href="http://texgamex.vn/"><small>TT Xuất khẩu lao động Texgamex</small></a></div>
+                    <div class="row11">
+                        <a href="http://congdoan.ntt.edu.vn/"><small>Công đoàn Trường ĐH Nguyễn Tất Thành</small></a></div>
+                    </div>
+                  <!--Các Liên kết-->
+                 <div class="img1" style="list-style:none">
+                            <li><a href="http://facbook.com/daihocnguyentatthanh" class="btn">
+                                <i class="fab fa-facebook"></i> Facebook</a></li>
+                            <li><a href="https://plus.google.com/112750194814925795608" class="btn">
+                                <i class="fab fa-google-plus-g"></i> Google Plus</a></li>
+                            <li><a href="http://youtube.com/daihocntt" class="btn">
+                                <i class="fab fa-youtube"></i> Youtube</a></li>
+                            <li><a href="mailto:#" class="btn">
+                                <i class="fas fa-envelope"></i> E-mail</a></li>
+                            <li><a href="https://zalo.me/1656351623584574728" class="btn">
+                                <i class="fab fa-weixin"></i> Zalo</a></li>
+                            <li><a href="https://eo1.ntt.edu.vn" class="btn">
+                                <i class="fas fa-graduation-cap"></i> E-office</a></li>
+                            <li><a href="http://tcns.ntt.edu.vn" class="btn">
+                                <i class="fas fa-users"></i> Tuyển dụng</a>
+                            </li>
+                        </div>
+                </div> <!--Hết các Liên kết-->
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="container">
+    <div class="row" style="text-align: left">
+        <div class="col-sm-6">
+            <div class="row1">THÔNG TIN LIÊN HỆ</div>
+            <div class="row2">Trụ sở chính: <b>300A – Nguyễn Tất Thành, Phường 13, Quận 4, TP. Hồ Chí Minh, Việt Nam</b></div>
+            <div class="row3">Điện thoại: <b>1900 2039</b> Fax: <b>028 39 404 759</b></div>
+            <div class="row4">Hotline: <b>0902 298 300 – 0906 298 300 – 0912 298 300 – 0914 298 300</b></div>
+            <div class="row5"><b>Email: tttvtsinh@ntt.edu.vn – bangiamhieu@ntt.edu.vn</b></div>
+        </div>
+        <div class="col-sm-6">
+            <p>©2017. Bản quyền thuộc về trường Đại học <b>Nguyễn Tất Thành</b></p>
+        </div>
+    </div>
+</div>
+</footer>
+<!--Hết phần footer-->
+</html>

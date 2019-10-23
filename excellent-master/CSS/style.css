@@ -1,0 +1,387 @@
+.btn-gnav {
+    background-color: transparent;
+    border: 0 !important;
+    border-radius: 0 !important;
+    line-height: 1 !important;
+    margin: 0 0 0 -50px;
+    padding: 0 !important;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 97;
+    margin-top: 0px;
+  
+}
+.btn {
+    display: inline-block ;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    user-select: none !important;
+    background-color: transparent !important;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem !important;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out !important;
+}
+.btn-gnav::before {
+    content: '';
+    border-style: solid;
+    border-width: 50px 50px 0 50px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    z-index: 95;
+}
+
+.btn-gnav i {
+    position: relative;
+    z-index: 97;
+    font-size: 28px;
+    top: -10px;
+
+}
+.c-blue-a5 {
+    color: #024282 !important;
+}
+
+#list{
+    position: absolute ;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+     display: none; 
+  
+  }
+  
+  .main-list{
+    background-color: rgba(2,66,130,0.95) !important;
+    padding-top: 55px;
+  }
+  
+  .list1 ul{
+    list-style: none;
+  }
+  .list1 p a{
+    color: white;
+    font-weight: bold;
+  }
+  .list1 ul li a{
+    color: white;
+  }
+  .nav-item-id:hover{
+    color: #aa914d !important;
+  }
+  
+
+
+/* index.html */
+
+#top{
+    background-color: rgb(36, 36, 173);
+    display: flex;
+    height: 50px;
+    border-style: solid black;
+}
+.hotline{
+    margin-left: 50px;
+    width: 20%;
+    color: orange;
+    margin-top: 10px;
+}
+.topheader {
+    width: 50%;
+    margin-top: 7px;
+}
+.topheader a{
+    color: white;
+}
+#ukflag{
+    margin-left: 10px;
+    width: 40px;
+    height: 30px;
+    
+}
+.main-header{
+    position: relative ;
+  }
+#wrapper #header {
+    background-color: white;
+    color: white;
+    height: 130px;
+    display: flex;
+    margin: 0px 70px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 20px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(1,2,3,0.4);
+}
+#wrapper #body p{
+    background-color: rgb(160, 49, 154);
+    color: white;
+    height: 200px;
+    /* margin: 5px 70px; */
+}
+#wrapper #end #icon img
+{
+    width: 100px;
+    height: 90px;
+}   
+
+#wrapper #end {
+
+    background-color: rgb(36, 90, 148);
+    color: azure;
+    height: auto;
+    display: flex;
+    padding: 30px 90px;
+
+}
+
+#wrapper #end h5 {
+    color: white;
+    font-size: 21px;
+    font-family: Arial;
+}
+#wrapper #end p {
+    color: gray;
+    font-size: 15px;
+    line-height: 0.1;
+
+}
+#wrapper #end #first{
+    width: 25%;
+}
+
+#wrapper #end #main{
+    width: 25%;
+}
+
+#wrapper #end #last{
+    width: 25%;
+}
+
+#wrapper #end #icon{
+    width: 20%;
+}
+#wrapper #end #icon img {
+    width: 50px;
+    height: 41px;
+}
+.logo {
+    width: 19%;
+    font-size: 20px;
+    height: 135px;
+    margin-left: 50px;
+}   
+.nav-item-id:hover{
+    color: #aa914d !important;
+  }
+  #nav2 {
+    padding-top: 15px;
+    background-color:white;
+    border-bottom:1px solid rgba(0,0,0,0.15);
+  }
+  
+.nav2 {
+    font-size: 16px;
+    padding-left:20px;
+    display: flex;
+  }
+  
+  .nav2 i {
+    color: #35699b;
+  }
+  
+  .nav2:hover {
+    color:#F7DC6F ;
+  }
+  
+.menu {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 2px;;
+}
+.menu a {
+    margin-right: 100px;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    margin-left: -22px;
+}
+a { 
+    margin-right: 40px;
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+
+}
+ footer .footer {
+    background-color: rgb(30, 80, 137);
+    /* height: 450px */
+}
+footer .footer.container{
+    padding-top: 40px;
+}
+.navbar navbar-expand-sm navbar-light bg-light
+{
+    margin-left: 300px;
+}
+
+.navbar-nav mr-auto mt-2 mt-lg-0{
+    margin-right: 30px;
+}
+.khoi{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+
+}
+.Tintuc{
+    margin-top: 10px;
+    margin-left:50px;
+}
+.row{
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.datebg{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+/* tintuc1.html */
+.wrapper1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#wrapper #end #icon img
+{
+    width: 100px;
+    height: 90px;
+}   
+
+#wrapper #end {
+
+    background-color: rgb(7, 7, 136);
+    color: azure;
+    height: auto;
+    display: flex;
+    padding: 30px 90px;
+
+}
+
+#wrapper1 #end1 h5 {
+    color: white;
+    font-size: 21px;
+    font-family: Arial;
+}
+#wrapper1 #end1 p {
+    color: gray;
+    font-size: 15px;
+    line-height: 0.1;
+
+}
+#wrapper1 #end1 #first1{
+    width: 25%;
+}
+
+#wrapper1 #end1 #main1{
+    width: 25%;
+}
+
+#wrapper1 #end1 #last1{
+    width: 25%;
+}
+
+#wrapper1 #end1 #icon1{
+    width: 20%;
+}
+#wrapper1 #end1 #icon1 img {
+    width: 50px;
+    height: 41px;
+}
+.footer {
+      background-color:rgb(7, 7, 136);
+    height: 400px;;
+}
+ .img1 img{
+    width: 20px;
+    height: 20px;
+ }
+ .img1 a{
+  display: inline-block;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  box-sizing: inherit;
+  color: #fff;
+  padding: 8px 50px;
+  margin: 2px;
+  background-color: #42719F;
+  border-radius: 6px;
+  border: 1px solid #42719f;
+  text-align: left;
+  width: 100%;
+ }
+ .img1 a:hover{
+      background-color:#fff;
+ }  
+.footer .container{
+    text-align: left;
+}
+.footer small{
+    color: gray;
+}
+.footer h5{
+    color: white
+}
+.nttlogo{
+    width: 190px;
+    height: 140px;
+    margin-left: 80px;
+}
+.footer .container .row{
+    text-align: left;
+}
+
+.anhcangiua{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/*tintuc2*/
+.wrapper_gioithieu .container .row .col-sm-3{
+    height: 1800px;
+}
+#DAOTAO1{
+    background-color: blanchedalmond;
+}
+
+
+
+/* Form thêm sửa xóa */
+.log_in button{
+    color: red;
+}
